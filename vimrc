@@ -12,3 +12,4 @@ set ruler
 syntax on
 nnoremap <F5> 0
 nnoremap <F6> $
+
