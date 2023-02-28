@@ -1,0 +1,1 @@
+alias vir='vi -M'
