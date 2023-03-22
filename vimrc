@@ -3,6 +3,7 @@ set showmode
 set ignorecase
 set aw
 set et
+set autoindent
 set softtabstop=4 
 set expandtab 
 set number
