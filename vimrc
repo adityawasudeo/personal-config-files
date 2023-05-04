@@ -16,3 +16,14 @@ nnoremap <F6> $
 set shiftround
 filetype on
 autocmd FileType c source ~/.C.vim
+autocmd FileType cpp source ~/.C.vim
+autocmd FileType h source ~/.C.vim
+autocmd FileType hpp source ~/.C.vim
+autocmd FileType javascript source ~/.C.vim
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
+packloadall
+let g:SuperTabDefaultCompletionType = "context"
+let g:SuperTabContextTextOmniPrecedence = ['&omnifunc', '&completefunc']
+inoremap " ""<left>
+inoremap ' ''<left>
